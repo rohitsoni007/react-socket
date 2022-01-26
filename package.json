@@ -1,6 +1,6 @@
 {
   "name": "@rjui/react-socket",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react provider for socket.io client library",
   "main": "lib/index.js",
   "scripts": {

@@ -25,7 +25,7 @@ export default function App() {
     
     return (
         <SocketProvider uri={uri} options={options}> 
-            <Router></Router>
+            <App/>
         </SocketProvider>
     );
 }
@@ -50,6 +50,39 @@ export default function MyComponent() {
         <div>
             <Socket on='connect' handle={handleConnect} />
             <Socket on='disconnect' handle={handleDisconnect} />
+        </div>
+    );
+}
+
+```
+or
+```js
+import React from 'react';
+import { useSocket } from '@rjui/react-socket';
+
+export default function MyComponent() {
+
+    const socket = useSocket();
+
+    useEffect(() => {
+        socket.on('connect', handleConnect)
+        socket.on('disconnect', handleConnect)
+    },[socket])
+    
+    const handleConnect = (data) => {
+        console.log('socket connected', data);
+    }
+    const handleDisconnect = (data) => {
+        console.log('socket disconnected');
+    }
+
+    const handleClick = (e) => {
+        socket.emit('chat message', 'hello their');
+    }
+
+    return (
+        <div>
+            <button onClick={handleClick} type="button">Click Me!</button>
         </div>
     );
 }
