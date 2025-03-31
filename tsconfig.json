@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "types": [
+      // "node",
+      // "jest"
+    ]
+  },
+  "include": ["bin"],
+  "exclude": ["node_modules"]
+}

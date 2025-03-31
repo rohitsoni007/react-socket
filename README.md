@@ -1,9 +1,9 @@
 # @rjui/react-socket
 
 
-React component for the socket.io client library.
+React.js wrapper for the socket.io to fast implemention in react
 
-For React 17 & socket 4
+For React 19.1.0 and above & socket 4.8.1 and above
 # Installation
 
 ```bash
@@ -19,7 +19,37 @@ import React from 'react';
 import { SocketProvider } from '@rjui/react-socket';
 
 const uri = 'http://localhost:3000';
-const options = { transports: ['polling'] };
+const options = { 
+
+};
+
+export default function App() {
+    
+    return (
+        <SocketProvider uri={uri}> 
+            <App/>
+        </SocketProvider>
+    );
+}
+```
+
+In app container file with options:
+
+default options: 
+reconnection: true
+reconnectionAttempts: Infinity
+reconnectionDelay: 1 * 1000
+reconnectionDelayMax: 10 * 1000
+autoConnect: true
+transports: ['polling']
+rejectUnauthorized: true 
+
+```js
+import React from 'react';
+import { SocketProvider } from '@rjui/react-socket';
+
+const uri = 'http://localhost:3000';
+const options = {};
 
 export default function App() {
     
