@@ -9,7 +9,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
     "clean": "gulp",
     "prepack": "npm run build",
-    "publish:next": "npm publish --access public"
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "react": "^19.1.0",
