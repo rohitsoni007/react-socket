@@ -4,7 +4,7 @@ module.exports = function (gulp) {
   var paths = {
     scripts: {
       _clean: {
-        src: ["bin/*.d.ts", "bin/*.jsx", "bin/*.js"],
+        src: ["bin/*.ts","bin/*.d.ts", "bin/*.tsx","bin/*.jsx", "bin/*.js", "bin/*.map"],
       },
     },
   };
