@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "commonjs",
-    "target": "ES2021",
+    "module": "CommonJS",
+    "target": "ESNext",
     "skipLibCheck": true,
     "sourceMap": false,
     "allowJs": true,
     "resolveJsonModule": true,
+    "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "strict": true,

@@ -1,9 +1,12 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useSocket = void 0;
 const SocketContext_1 = require("./SocketContext");
 const react_1 = require("react");
-const socket_io_client_1 = require("socket.io-client");
+const socket_io_client_1 = __importDefault(require("socket.io-client"));
 const useSocket = () => (0, react_1.useContext)(SocketContext_1.SocketContext);
 exports.useSocket = useSocket;
 const SocketProvider = ({ uri, options, children }) => {
