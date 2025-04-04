@@ -1,7 +1,8 @@
 # react-socket.io-client
 
 
-React.js wrapper for the socket.io to fast implemention in react
+React.js wrapper for [socket.io-client
+](https://www.npmjs.com/package/socket.io-client) to fast implemention in react
 
 For React 19.1.0 and above & socket 4.8.1 and above
 # Installation
