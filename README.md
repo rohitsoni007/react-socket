@@ -1,4 +1,4 @@
-# @rjui/react-socket
+# react-socket.io-client
 
 
 React.js wrapper for the socket.io to fast implemention in react
@@ -7,7 +7,7 @@ For React 19.1.0 and above & socket 4.8.1 and above
 # Installation
 
 ```bash
-npm install @rjui/react-socket --save-dev
+npm install react-socket.io-client
 ```
 
 # How to use
@@ -16,7 +16,7 @@ In app container file:
 
 ```js
 import React from 'react';
-import { SocketProvider } from '@rjui/react-socket';
+import { SocketProvider } from 'react-socket.io-client';
 
 const uri = 'http://localhost:3000';
 const options = { 
@@ -46,7 +46,7 @@ rejectUnauthorized: true
 
 ```js
 import React from 'react';
-import { SocketProvider } from '@rjui/react-socket';
+import { SocketProvider } from 'react-socket.io-client';
 
 const uri = 'http://localhost:3000';
 const options = {};
@@ -65,7 +65,7 @@ In other files:
 
 ```js
 import React from 'react';
-import { Socket } from '@rjui/react-socket';
+import { Socket } from 'react-socket.io-client';
 
 export default function MyComponent() {
 
@@ -88,7 +88,7 @@ export default function MyComponent() {
 or
 ```js
 import React from 'react';
-import { useSocket } from '@rjui/react-socket';
+import { useSocket } from 'react-socket.io-client';
 
 export default function MyComponent() {
 
