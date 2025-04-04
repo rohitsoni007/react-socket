@@ -1,4 +1,4 @@
-# react-socket.io-client
+# react-socket-client
 
 
 React.js wrapper for [socket.io-client
@@ -8,7 +8,7 @@ For React 19.1.0 and above & socket 4.8.1 and above
 # Installation
 
 ```bash
-npm install react-socket.io-client
+npm install react-socket-client
 ```
 
 # How to use
@@ -17,7 +17,7 @@ In app container file:
 
 ```js
 import React from 'react';
-import { SocketProvider } from 'react-socket.io-client';
+import { SocketProvider } from 'react-socket-client';
 
 const uri = 'http://localhost:3000';
 const options = { 
@@ -50,7 +50,7 @@ as per offical documentation, visit [socket.io-client
 
 ```js
 import React from 'react';
-import { SocketProvider } from 'react-socket.io-client';
+import { SocketProvider } from 'react-socket-client';
 
 const uri = 'http://localhost:3000';
 const options = {};
@@ -69,7 +69,7 @@ In other files:
 
 ```js
 import React from 'react';
-import { Socket } from 'react-socket.io-client';
+import { Socket } from 'react-socket-client';
 
 export default function MyComponent() {
 
@@ -92,7 +92,7 @@ export default function MyComponent() {
 or
 ```js
 import React from 'react';
-import { useSocket } from 'react-socket.io-client';
+import { useSocket } from 'react-socket-client';
 
 export default function MyComponent() {
 
