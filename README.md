@@ -45,6 +45,9 @@ autoConnect: true
 transports: ['polling']
 rejectUnauthorized: true 
 
+as per offical documentation, visit [socket.io-client
+](https://socket.io/docs/v4/client-initialization)
+
 ```js
 import React from 'react';
 import { SocketProvider } from 'react-socket.io-client';
