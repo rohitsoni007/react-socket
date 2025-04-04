@@ -1,7 +1,7 @@
 {
-  "name": "@rjui/react-socket",
+  "name": "react-socket.io-client",
   "version": "1.0.0",
-  "description": "React.js wrapper for the socket.io to fast implemention in react",
+  "description": "React.js wrapper for the socket.io-client",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "scripts": {
@@ -32,11 +32,10 @@
     "realtime",
     "websocket",
     "react",
-    "react-socket",
     "socket.io-client"
   ],
   "author": "Rohit Soni",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rohitsoni007/react-socket/issues"
   },
