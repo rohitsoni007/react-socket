@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rohitsoni007/react-socket/main/public/favicon.ico" width="100" height="100" alt="React Socket Client Logo" />
   <h1>React Socket Client</h1>
   <p><strong>The Ultimate React.js Wrapper for Socket.IO Client</strong></p>
   
