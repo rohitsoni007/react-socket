@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
     "outDir": "bin/",
-    "declaration": true,
-    "module": "CommonJS",
-    "target": "ESNext",
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
+    "target": "es2022",
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "useUnknownInCatchVariables": false,
+    "noEmit": false,
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": false,
+    "allowJs": true,
+    "declaration": true
   },
-  "include": ["lib"],
-  "exclude": ["node_modules"]
+  "include": ["src"]
 }
