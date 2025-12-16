@@ -1,9 +1,6 @@
 // Socket Context
-export {
-  SocketContext,
-  type ISocketContext,
-  type SocketStatus,
-} from './SocketContext';
+export { SocketContext } from './SocketContext';
+export type { ISocketContext, SocketStatus } from './SocketContext';
 
 // Socket Provider
 export { default as SocketProvider, useSocket } from './SocketProvider';
