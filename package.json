@@ -1,7 +1,7 @@
 {
   "name": "react-socket-client",
   "version": "1.0.1",
-  "description": "React.js wrapper for the socket.io-client",
+  "description": "React.js wrapper for Socket.IO Client - Real-time WebSocket communication library for React applications with hooks and TypeScript support"
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "scripts": {
@@ -41,11 +41,26 @@
     "url": "git+https://github.com/rohitsoni007/react-socket.git"
   },
   "keywords": [
-    "realtime",
-    "websocket",
     "react",
+    "socket.io",
+    "websocket",
+    "realtime",
+    "real-time",
     "socket.io-client",
-    "socket.io"
+    "hooks",
+    "typescript",
+    "chat",
+    "messaging",
+    "communication",
+    "websockets",
+    "react-hooks",
+    "socket",
+    "io",
+    "realtime-communication",
+    "websocket-client",
+    "react-component",
+    "frontend",
+    "ui"
   ],
   "author": "Rohit Soni",
   "license": "MIT",
