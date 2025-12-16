@@ -1,6 +1,6 @@
 {
   "name": "react-socket-client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React.js wrapper for Socket.IO Client - Real-time WebSocket communication library for React applications with hooks and TypeScript support",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
