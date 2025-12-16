@@ -551,11 +551,6 @@ npm test
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 Related Projects
-
-- [socket.io-client](https://github.com/socketio/socket.io-client) - Official Socket.IO client
-- [React](https://reactjs.org/) - The library for web and native user interfaces
-- [react-use-websocket](https://github.com/robtaussig/react-use-websocket) - Another React WebSocket library
 
 ## 🙏 Acknowledgments
 
@@ -563,13 +558,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by the React community's need for better WebSocket integrations
 - Special thanks to all contributors and users who provided feedback
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
 - Check the [Issues](https://github.com/rohitsoni007/react-socket/issues) page
 - Submit a new issue with a detailed description
-- Contact the maintainer at [rohitsoni@example.com](mailto:rohitsoni@example.com)
 
 ---
 
